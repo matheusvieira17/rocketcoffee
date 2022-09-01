@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --backgrond: #000000;
+  --background: #000000;
   --text-color: #FFFFFF;
   --button: #8257E5;
   --border: #29292E;
@@ -21,12 +21,19 @@
   font-family: var(--font-default); 
 }
 
-
 body {
-  width: 100vw;
   height: 100vh;
-  background-color: var(--backgrond);
-  background-image: url();
+  background-color: var(--background);
+
+  background-image: 
+    url(../assets/rocket-coffee.png), 
+    url(../assets/blur-1.png), 
+    url(../assets/blur-2.png);
+
+  background-repeat: no-repeat;
+  background-position: bottom center, bottom left, top right;
+  background-size: 60%, 60%, 40%;
+  background-attachment: fixed;
 }
 
 a {
