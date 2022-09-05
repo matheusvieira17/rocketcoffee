@@ -1,3 +1,9 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header .header-container {
     max-width: 58em;
     padding-top: 3.125em;
@@ -6,6 +12,7 @@ header .header-container {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    /* margin-left: 137px; */
     
 }
 
@@ -26,11 +33,12 @@ header .navbar li a {
 
 header .navbar li a:hover {
     border-bottom: solid var(--button);
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 header .coffee-btn {
     text-transform: uppercase;
+    cursor: pointer;
     font-size: 0.7em; 
     font-weight: 800;
     letter-spacing: 0.02em;
@@ -43,5 +51,5 @@ header .coffee-btn {
 
 header .coffee-btn:active {
     transform: scale(1.02);
-    transition: 0.2s;
+    transition: 0.4s;
 }

@@ -1,0 +1,13 @@
+footer {
+    background-color: #F5F5F5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.5;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
