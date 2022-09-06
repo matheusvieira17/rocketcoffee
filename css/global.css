@@ -13,7 +13,6 @@
   --font-default: 'Manrope', sans-serif;
 }
 
-
 * {
   margin: 0px;
   padding: 0px;
@@ -35,6 +34,7 @@ body {
   background-position: bottom center, bottom left, top right;
   background-size: 50%, 60%, 50%;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 a {

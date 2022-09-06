@@ -11,9 +11,7 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    /* margin-left: 137px; */
-    
+    margin: auto; 
 }
 
 header .navbar ul {

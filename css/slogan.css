@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-article.slogan {
+section.slogan {
     width: 95%;
     margin-top: 1.5rem;
     display: flex;
