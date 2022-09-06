@@ -7,4 +7,8 @@ section.slogan {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-} 
+}
+
+section.slogan img {
+    max-width: 34.25rem;
+}
