@@ -8,7 +8,19 @@ div.logo img:nth-child(2) {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
+  body {
+    padding-top: 2.3rem;
+  }
+  header {
+    padding-left: 0;
+  }
+
+  section.header-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
   div.logo img:nth-child(1) {
     display: none;
   }
@@ -17,7 +29,28 @@ div.logo img:nth-child(2) {
     display: flex;
   }
 
-  div.navbar > nav > ul {
+  header .navbar {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 4.3rem);
+    top: 9.5rem;
+    left: 0;
+    background-color: var(--background);
+    visibility: hidden;
+
+  }
+
+  header .coffee-btn {
     display: none;
+  }
+
+  section .menu-mobile button.burguer-btn {
+    display: block;
+    width: 1.5rem;
+    height: 0.5rem;
+    border: none;
+    background-image: url(../assets/menu-burguer-open.svg);
+    background-color: transparent;
   }
 }
