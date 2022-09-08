@@ -51,3 +51,7 @@ header .coffee-btn:active {
   transform: scale(1.05);
   transition: 0.4s;
 }
+
+div.text-mobile > button.coffee-btn-mobile {
+  display: none;
+}
