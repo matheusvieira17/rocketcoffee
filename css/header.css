@@ -1,53 +1,53 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header .header-container {
-    max-width: 58em;
-    padding-top: 3.125em;
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto; 
+  max-width: 58em;
+  padding-top: 3.125em;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
 }
 
 header .navbar ul {
-    display: flex;
+  display: flex;
 }
 
 header .navbar li a {
-    color: var(--text-color);
-    font-size: 0.875em;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-    
-    display: flex;
-    padding-inline: 2em;
+  color: var(--text-color);
+  font-size: 0.875em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  padding-inline: 2em;
 }
 
 header .navbar li a:hover {
-    border-bottom: solid var(--button);
-    transition: 0.4s;
+  border-bottom: solid var(--button);
+  transition: 0.2s;
 }
 
 header .coffee-btn {
-    text-transform: uppercase;
-    cursor: pointer;
-    font-size: 0.7em; 
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    padding: 0.7em 2.4em;
-    border-radius: 6px;
-    border: 2px solid var(--button);
-    background-color: transparent;
-    color: var(--text-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.7em;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding: 0.7em 2.4em;
+  border-radius: 6px;
+  border: 2px solid var(--button);
+  background-color: transparent;
+  color: var(--text-color);
 }
 
 header .coffee-btn:active {
-    transform: scale(1.02);
-    transition: 0.4s;
+  transform: scale(1.05);
+  transition: 0.4s;
 }

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section button.burguer-btn {
+  display: none;
+}
+
+div.logo img:nth-child(2) {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  div.logo img:nth-child(1) {
+    display: none;
+  }
+
+  div.logo img:nth-child(2) {
+    display: flex;
+  }
+
+  div.navbar > nav > ul {
+    display: none;
+  }
+}

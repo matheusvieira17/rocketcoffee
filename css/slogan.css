@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 section.slogan {
-    width: 95%;
-    margin-top: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 95%;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 section.slogan img {
-    max-width: 34.25rem;
+  max-width: 34.25rem;
 }
