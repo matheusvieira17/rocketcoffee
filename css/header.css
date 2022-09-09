@@ -4,7 +4,7 @@ header {
   justify-content: center;
 }
 
-header .header-container {
+.header-container {
   max-width: 58em;
   padding-top: 3.125em;
   width: 95%;
@@ -14,11 +14,11 @@ header .header-container {
   margin: auto;
 }
 
-header .navbar ul {
+.navbar ul {
   display: flex;
 }
 
-header .navbar li a {
+.navbar li a {
   color: var(--text-color);
   font-size: 0.875em;
   font-weight: 500;
@@ -29,12 +29,12 @@ header .navbar li a {
   padding-inline: 2em;
 }
 
-header .navbar li a:hover {
+.navbar li a:hover {
   border-bottom: solid var(--button);
   transition: 0.2s;
 }
 
-header .coffee-btn {
+.coffee-btn {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 0.7em;
@@ -47,11 +47,11 @@ header .coffee-btn {
   color: var(--text-color);
 }
 
-header .coffee-btn:active {
+.coffee-btn:active {
   transform: scale(1.05);
   transition: 0.4s;
 }
 
-div.text-mobile > button.coffee-btn-mobile {
+.text-mobile > .coffee-btn-mobile {
   display: none;
 }
