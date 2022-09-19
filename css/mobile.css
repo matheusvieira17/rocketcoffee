@@ -11,6 +11,7 @@
 @media (max-width: 800px) {
   body {
     margin: auto;
+    padding-top: 2.3rem;
     background-color: black;
     background-image: 
     url(../assets/cup-of-coffee.png),
@@ -48,6 +49,10 @@
     visibility: hidden;
   }
 
+  .navbar.open {
+    visibility: visible;
+  }
+
   .coffee-btn {
     display: none;
   }
@@ -56,17 +61,30 @@
     display: block;
     width: 1.5rem;
     height: 0.5rem;
+    margin-bottom: 0.5rem;
     border: none;
     background-image: url(../assets/menu-burguer-open.svg);
     background-color: transparent;
+    transition: 0.5
+  }
+
+  .menu-mobile > .burguer-btn.close {
+    display: block;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: none;
+    background-image: url(../assets/menu-burguer-close.svg);
+    background-color: transparent;
+    transition: 0.5
   }
 
   .slogan {
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
     padding-top: 18%;
     padding-bottom: 63%;
     margin: 2.5rem auto;
+    border-top: 1px solid var(--border);
   }
 
   .slogan > .text-mobile {

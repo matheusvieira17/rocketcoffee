@@ -31,7 +31,8 @@ header {
 
 .navbar li a:hover {
   border-bottom: solid var(--button);
-  transition: 0.2s;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 .coffee-btn {
@@ -47,9 +48,14 @@ header {
   color: var(--text-color);
 }
 
+.coffee-btn:hover {
+  background-color: var(--button);
+  transition: 0.3s;
+  cursor: pointer;
+}
 .coffee-btn:active {
   transform: scale(1.05);
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .text-mobile > .coffee-btn-mobile {
