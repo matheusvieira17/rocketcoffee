@@ -1,9 +1,9 @@
-#RocketCoffee
+# RocketCoffee
 
-##Sobre o projeto
+## Sobre o projeto
 Idealizado pela [Rocketseat](https://www.rocketseat.com.br), esse projeto consiste em criar uma landing page de uma marca de café, utilizando as linguagens HTML, CSS e Java Script, com base em uma prototipação no Figma
 
-##Conhecimentos utilizados
+## Conhecimentos utilizados
 - HTML: Versão semântica da linguagem, uso de grouping tags
 - CSS: 
   * Uso de variáveis como forma de reuso de código
